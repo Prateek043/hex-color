@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            background-color:black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .btn{
+            position: absolute;
+            top: 50%;
+            left: 47%;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: orange;
+            cursor: pointer;
+        }
+        .center{
+            padding-top: 70px;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="header">Change The Background Color Using Below Button</h1>
+    <button class="btn" type="button" onclick="changeColor()">Click Me</button>
+    <h2 class="center" id="demo">#fff</h2>
+    <script src="index.js"></script>
+</body>
+</html>
